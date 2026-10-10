@@ -2,9 +2,10 @@
 
 # 🎛️ Raphaël Louvradoux
 
-**Beats and bits.** DevOps & back-end developer in Nantes, France.
+**Beats and bits.** AI-powered product engineer in Nantes, France.
 
 [![Website](https://img.shields.io/badge/fundriven.dev-%F0%9F%8C%90-111?style=flat-square)](https://fundriven.dev)
+[![Blog](https://img.shields.io/badge/blog.fundriven.dev-%E2%9C%8D%EF%B8%8F-111?style=flat-square)](https://blog.fundriven.dev/)
 [![FunDrivenDev](https://img.shields.io/badge/github-FunDrivenDev-24292f?style=flat-square&logo=github)](https://github.com/FunDrivenDev)
 [![LinkedIn](https://img.shields.io/badge/in%2Frlvdx-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rlvdx/)
 [![Guest Suite](https://img.shields.io/badge/now%20mixing%20at-Guest%20Suite-6f42c1?style=flat-square)](https://www.guest-suite.com)
@@ -23,11 +24,16 @@
 ```
 
 Two things I care about, and I refuse to pick only one: **users who are happy** and
-**developers who are calm**. That is what pushed me from back-end code toward the
-ops side of DevOps. Today I look after infrastructure and applications at
+**developers who are calm**. That is what took me from journalism to code, then from
+back-end to ops, and now to the whole product. Today I am an AI-powered product engineer at
 [Guest Suite](https://www.guest-suite.com), a Nantes company whose app makes local businesses
-the obvious choice for Google, AI assistants and humans: Google listings, customer reviews
-and local visibility in one place.
+the obvious choice for Google, AI assistants and humans. I work full-stack, from front end to
+back end to infrastructure, assisted by agents, on both the product and the technical side.
+I also build the agentic development tooling (the harness, the skills), and I keep improving
+both the product and the factory that makes it.
+
+Fresh off the press: my blog, **[blog.fundriven.dev](https://blog.fundriven.dev/)**. First
+post: a Claude Code status line for the context budget.
 
 ## 💿 The set (career as a tracklist)
 
@@ -40,7 +46,7 @@ and local visibility in one place.
 | 05 | *Platform Team (Pulumi Remix)* | Evaneos | 2022–24 | Co-founded the platform team. Survived a full customer-facing outage on the ops side. |
 | 06 | *GCP Terraform Extended* | Valeuriad ⇢ Bouygues Telecom | 2024–25 | Data & AI cloud infra, IaC cleanup, GKE, mentoring. |
 | 07 | *Concourse Pipeline (Hexagonal Version)* | Valeuriad ⇢ France Travail | 2025–26 | Adopting orphaned Java/Python apps. Trained the team on tests & incident response. |
-| 08 | *Guest Suite* | Nantes | now | Currently on the decks. 🎚️ |
+| 08 | *Whole Product (Agentic Mix)* | Guest Suite | now | AI-powered product engineer: front, back, infra, and the factory that makes it, with agents on the decks. 🎚️ |
 
 ## 🎚️ Tech rider
 
@@ -51,11 +57,12 @@ containers:   [docker, kubernetes, helm]
 cloud:        [gcp, cloudflare, "a single well-hardened VPS"]
 iac:          [terraform, pulumi, ansible]
 ci_cd:        [github-actions, gitlab-ci, concourse]
-languages:    [rust, go, python, php/symfony, java, svelte/typescript, hcl, shell]
+languages:    [rust, go, python, php/symfony, svelte/typescript, hcl, shell]
+runtimes:     [deno, tauri-2]
 setup:        [neovim (lazyvim, catppuccin frappé), zsh, mise, just, direnv]
 practices:    [ddd, tdd, cqrs, event-storming, hexagonal-architecture]
 soft:         [nonviolent-communication, "explaining things to the whole company"]
-ai_pairing:   [claude-code, "far too many custom skills"]
+agentic_dev:  [claude-code, "its harness", "a deliberately small set of skills"]
 ```
 
 ## 🔊 B-sides & remixes
@@ -64,8 +71,7 @@ Most side projects now live in the **[FunDrivenDev](https://github.com/FunDriven
 
 **Released**
 
-- 🎵 **[tracklist-formatter](https://github.com/rlvdx/tracklist-formatter)** · From a Traktor `.nml` file to a copy-pasteable tracklist, real quick. A souvenir from my pre-Rekordbox days. My most-starred repo, which tells you something about my priorities.
-- 🔌 **[claude-plugins](https://github.com/FunDrivenDev/claude-plugins)** · Public Claude Code plugins, starting with a status line that keeps an eye on the context budget.
+- 🔌 **[claude-plugins](https://github.com/FunDrivenDev/claude-plugins)** · My public Claude Code plugin marketplace. Highlights: `handover`, which passes a session to a fresh one before its context fills up, and `session-panel`.
 - 🍺 **[homebrew-tap](https://github.com/FunDrivenDev/homebrew-tap)** · `brew install` the Fun Driven apps. Each app's release publishes its own cask.
 - 🖥️ **[fundriven.dev](https://fundriven.dev)** · *FunDriven XP: eXtra Puns*, a Windows XP-flavoured desktop in plain HTML, CSS and JavaScript. Zero dependencies, one Konami code.
 
@@ -76,7 +82,6 @@ Most side projects now live in the **[FunDrivenDev](https://github.com/FunDriven
 - 📒 **memo** · A keyboard-driven macOS reader for the plans, handoffs and reports Claude Code writes.
 - 🗺️ **okarina** · A zoomable canvas to map a company's vision, strategy, initiatives, OKRs and metrics, linked to Linear and assisted by Claude.
 - 📺 **focustube** · Filters YouTube into a focused, learning-oriented feed of the channels and topics you choose.
-- 🧪 **linear-triage-bench** · Benchmarks LLMs on Linear issue triage, with other LLMs as judges.
 - 🧰 **mosst-template** · The starting point of every MOSST app (macOS, Svelte, Tauri), which a Claude Code skill copies and renames.
 - 🏠 **Home infra** · Terraform for Cloudflare and the GitHub org, Ansible and Traefik on a VPS, dotfiles managed with chezmoi.
 
